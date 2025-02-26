@@ -1,0 +1,18 @@
+﻿<Page x:Class="RadarBase.ConfigPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RadarBase"
+      mc:Ignorable="d" 
+      Title="ConfigPage" Height="Auto" Width="Auto">
+
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FFD4FF11" Width="500" Height="300">
+        <Label Content="Config Page" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Background="#FFFF0808" Foreground="White" FontSize="24"/>
+        <Label Content="A" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FF606FFF" FontWeight="Bold"/>
+        <Label Content="B" VerticalAlignment="Top" Foreground="#FF606FFF" FontWeight="Bold" HorizontalAlignment="Right"/>
+        <Label Content="C" HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="#FF606FFF" FontWeight="Bold"/>
+        <Label Content="D" Foreground="#FF606FFF" FontWeight="Bold" HorizontalAlignment="Right" Width="18" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Page>
